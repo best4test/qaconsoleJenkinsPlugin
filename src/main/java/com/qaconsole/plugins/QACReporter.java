@@ -70,13 +70,13 @@ public class QACReporter extends Notifier {
         con.setDoInput(true);
         con.setRequestProperty("Content-Type", "application/json");
         con.setRequestProperty("Accept", "application/json");
+        con.setRequestProperty("ApiKey", apiKey);
         con.setRequestMethod("POST");
 
         JSONObject payload = new JSONObject();
 
         payload.put("projectName",projectName);
         payload.put("environment",environment);
-        payload.put("ApiKey",apiKey);
         payload.put("result", content);
 
         OutputStreamWriter wr= new OutputStreamWriter(con.getOutputStream());

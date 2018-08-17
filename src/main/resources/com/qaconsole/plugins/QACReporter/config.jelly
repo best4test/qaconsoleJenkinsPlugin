@@ -1,0 +1,15 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:entry title="Endpoint" description="example https://demo.qaconsole.com/testrunsJenkinsPlugin." field="endPoint">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="ApiKey" description="example QjX8hSAN8DrOJ0tbO5G6OpV9DXu3D5dP" field="apiKey">
+      <f:textbox />
+  </f:entry>
+  <f:entry title="Project Name" description="configured to aggregate test results in QAconsole" field="projectName">
+        <f:textbox />
+  </f:entry>
+  <f:entry title="Environment" description="configured to aggregate test results in QAconsole" field="environment">
+          <f:textbox />
+  </f:entry>
+</j:jelly>
