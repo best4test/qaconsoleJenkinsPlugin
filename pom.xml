@@ -7,8 +7,8 @@
         <version>3.4</version>
         <relativePath />
     </parent>
-    <groupId>com.qaconsole.plugins</groupId>
-    <artifactId>qacplugin</artifactId>
+    <groupId>com.qaconsole</groupId>
+    <artifactId>qaconsole-test-automation-reporter</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <properties>
